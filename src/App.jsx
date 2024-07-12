@@ -1,11 +1,13 @@
-import './App.css'
+import React from 'react';
+import ListaPokemon from './galeriaPokemon';
 
-function App() {
+const App = () => {
   return (
-    <>
-      
-    </>
-  )
-}
+    <div className="App">
+      <h1>Galería Pokemon</h1>
+      <ListaPokemon />
+    </div>
+  );
+};
 
-export default App
+export default App;
